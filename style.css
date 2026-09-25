@@ -1,0 +1,92 @@
+*{
+    font-family: "rixsejongrogulim-pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 3vw;
+    color: #FE34C8;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/DSC5328.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+
+#tccc{
+    display: flex;
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+    text-align: right;
+}
+
+#tccc img{
+    width: 10vw;
+    -webkit-filter: invert(1);
+}
+
+#tccc-info p{
+    font-size: 1vw;
+    color: white;
+}
+
+#tccc-info p a{
+    font-size: 1.8vw;
+    color: white;
+    text-decoration: none;
+}
+
+#tccc-info p a:hover{
+    -webkit-text-stroke: 3px #FFFFFF;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zurich, #gent{
+    width: 50vw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: none;
+}
+
+h1 a{
+    font-size: 5vw;
+}
+
+#zurich a, #gent a{
+    text-decoration: none;
+}
+
+#zurich:hover > a, #zurich:hover > h1, #gent:hover > a, #gent:hover > h1{
+    text-decoration: none;
+    -webkit-text-stroke: 3px #FE34C8;
+}
+.book{
+    margin-top: 55px;
+    border: 5px solid black;
+}
+
+
+
+.book:hover{
+    -webkit-text-stroke: 3px #FE34C8;
+    border: 5px solid #FE34C8;
+    border-radius: 100%;
+}
+
