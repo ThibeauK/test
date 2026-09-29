@@ -1,92 +1,232 @@
 *{
-    font-family: "rixsejongrogulim-pro", sans-serif;
-    font-weight: 900;
-    font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 3vw;
-    color: #FE34C8;
+    overflow-x: hidden;
+    font-size: 12.5px;
+    font-family: "Open Sans", sans-serif;
 }
 
 body{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(images/DSC5328.png);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: hard-light;
+    background-color: white;
+    color: black;
 }
 
-#tccc{
-    display: flex;
-    position: absolute;
-    right: 1vw;
-    top: 1vw;
-    text-align: right;
-}
-
-#tccc img{
-    width: 10vw;
-    -webkit-filter: invert(1);
-}
-
-#tccc-info p{
-    font-size: 1vw;
-    color: white;
-}
-
-#tccc-info p a{
-    font-size: 1.8vw;
-    color: white;
+a{
+    color: black;
     text-decoration: none;
-}
-
-#tccc-info p a:hover{
-    -webkit-text-stroke: 3px #FFFFFF;
 }
 
 #container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 5em;
 }
 
-#zurich, #gent{
-    width: 50vw;
-    height: 100dvh;
+header{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 30dvh;
+}
+
+header #banner{
+    background-image: url(images/AMCOR-COVER.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75%;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    padding-left: 10vw;
+    flex-direction: column;
+}
+
+#banner h1, #banner p{
+    color: white;
+    font-size: 18px;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+.item{
+    padding: 1em;
+}
+
+.item:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.item a{
+    padding: 1em;
+}
+
+#navhistory{
+    margin-left: 10vw;
+    padding: 1em 3em;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+#navhistory a, .link-arrow{  
+    font-size: 11px;
+    color: gray;
+}
+
+#navhistory a:hover{
+    color: rgb(31, 31, 31);
+}
+
+#main{
+    display: flex;
+    padding: 0 10vw;
+    gap: 5vw;
+    height: 70dvh;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: none;
+    width: 50%;
+}
+
+.main-section p{
+    width: fit-content;
+}
+
+.main-section img{
+    width: 40%;
     flex: none;
 }
 
-h1 a{
-    font-size: 5vw;
+#links{
+    gap: 3em;
 }
 
-#zurich a, #gent a{
-    text-decoration: none;
+#nathalie{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: last baseline;
 }
 
-#zurich:hover > a, #zurich:hover > h1, #gent:hover > a, #gent:hover > h1{
-    text-decoration: none;
-    -webkit-text-stroke: 3px #FE34C8;
-}
-.book{
-    margin-top: 55px;
-    border: 5px solid black;
+#bio{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
 
+#advies p{
+       font-family: "Fauna One", serif;
+       font-style: italic;
+       padding-right: 1em;
+       color: gray;
+}
+
+#adv{
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 3em;
+    color: rgb(59, 121, 179);
+}
+
+#adv h1{
+    text-align: center;
+}
+
+#adv-producten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
 
 
-.book:hover{
-    -webkit-text-stroke: 3px #FE34C8;
-    border: 5px solid #FE34C8;
-    border-radius: 100%;
+.adv-product{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;;
+}
+
+.adv-product:hover{
+    border-bottom: 3px solid rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.adv-product:hover > .adv-product-bio{
+    color: rgb(25, 71, 114);;
+}
+
+.adv-product-bio{
+    display: flex;
+    gap: 2em;
+}
+
+.adv-product-img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    padding: 1em 10vw;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+
+#footer-bio{
+    padding: 1em 0;
+}
+
+#footer-links{
+    display: flex;
+    gap: 3em;
+}
+
+#footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#footer-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-nav .item a{
+    font-size: 10px;
+}
+
+#footer-nav .item:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+#logos{
+    display: flex;
+    gap: 1em;
+    filter: saturate(0) opacity(60%);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+}
+
+#logos img{
+    width: 100%;
+    flex: none;
 }
 
