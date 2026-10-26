@@ -1,0 +1,106 @@
+[
+  { "id": "neutraal-papier", "name": "Neutraal papier", "children": [
+      { "id": "toiletpapier", "name": "Toiletpapier" },
+      { "id": "handpapier", "name": "Handpapier" },
+      { "id": "keukenrollen", "name": "Keukenrollen" },
+      { "id": "poetspapier-werkdoeken", "name": "Poetspapier en werkdoeken" },
+      { "id": "servetten-kleenex", "name": "Servetten en kleenex" },
+      { "id": "onderzoekstafelrollen", "name": "Onderzoekstafelrollen" }
+  ]},
+  { "id": "tork", "name": "Tork", "children": [
+      { "id": "dispensers", "name": "Dispensers" },
+      { "id": "toiletpapier", "name": "Toiletpapier" },
+      { "id": "leugenrollen", "name": "Leugenrollen" },
+      { "id": "handdoeken", "name": "Handdoeken" },
+      { "id": "poetspapier-werkdoeken", "name": "Poetspapier en werkdoeken" },
+      { "id": "servetten-tafelpapier", "name": "Servetten en tafelpapier" },
+      { "id": "onderzoekstafelrollen", "name": "Onderzoekstafelrollen" },
+      { "id": "handzeep", "name": "Handzeep" },
+      { "id": "luchtverfrisser", "name": "Luchtverfrisser" }
+  ]},
+  { "id": "vileda", "name": "Vileda", "children": [
+      { "id": "zemen", "name": "Zemen" },
+      { "id": "dweilen", "name": "Dweilen" },
+      { "id": "microvezels", "name": "Microvezels" },
+      { "id": "sponzen", "name": "Sponzen" },
+      { "id": "stofwisdoeken", "name": "Stofwisdoeken" },
+      { "id": "express-systeem", "name": "Express systeem" },
+      { "id": "reinigingskarren-persen", "name": "Reinigingskarren met persen" },
+      { "id": "mopping-pads", "name": "Mopping en pads" },
+      { "id": "all-pvc-folie", "name": "All en pvc folie" },
+      { "id": "vloerwissers-borstels", "name": "Vloerwissers en borstels" },
+      { "id": "afvalbakken", "name": "Afvalbakken" }
+  ]},
+  { "id": "liquides", "name": "Liquides", "children": [
+      { "id": "vloerreinigers", "name": "Vloerreinigers" },
+      { "id": "sanitaire-reinigers", "name": "Sanitaire reinigers" },
+      { "id": "handzeep", "name": "Handzeep" },
+      { "id": "hout", "name": "Hout" },
+      { "id": "autoreinigers", "name": "Autoreinigers" },
+      { "id": "strippers-zelfglans", "name": "Strippers en zelfglans" },
+      { "id": "ontstoppers", "name": "Ontstoppers" },
+      { "id": "ontvetters", "name": "Ontvetters" },
+      { "id": "enzymen", "name": "Enzymen" },
+      { "id": "desinfectie", "name": "Desinfectie" },
+      { "id": "verfrissers-ontgeurders", "name": "Verfrissers en ontgeurders" },
+      { "id": "vochtvangers", "name": "Vochtvangers" },
+      { "id": "industriele-reiniging", "name": "Industriële reiniging" },
+      { "id": "huishoudelijke-reiniging", "name": "Huishoudelijke reiniging" }
+  ]},
+  { "id": "borstels-trekkers-stelen", "name": "Borstels, trekkers en stelen", "children": [
+      { "id": "vegers", "name": "Vegers", "children": [
+          { "id": "harde-vegers", "name": "Harde vegers" },
+          { "id": "halfharde-vegers", "name": "Halfharde vegers" },
+          { "id": "zachte-vegers", "name": "Zachte vegers" }
+      ]},
+      { "id": "schrobborstels", "name": "Schrobborstels" },
+      { "id": "handvegers", "name": "Handvegers" },
+      { "id": "hygienische-borstels", "name": "Hygiënische borstels" },
+      { "id": "toiletborstels", "name": "Toiletborstels" },
+      { "id": "technische-borstels", "name": "Technische borstels" },
+      { "id": "diverse-borstels", "name": "Diverse borstels" },
+      { "id": "vloerwissers", "name": "Vloerwissers" },
+      { "id": "stofwissers", "name": "Stofwissers" },
+      { "id": "topsysteem", "name": "Topsysteem" },
+      { "id": "boenwasverdeler", "name": "Boenwasverdeler" },
+      { "id": "borstelstelen", "name": "Borstelstelen" },
+      { "id": "telescopische-stelen", "name": "Telescopische stelen" }
+  ]},
+  { "id": "bio-producten", "name": "Biologische producten", "children": [
+      { "id": "interieur", "name": "Interieur" },
+      { "id": "vloeren", "name": "Vloeren" },
+      { "id": "sanitair", "name": "Sanitair" },
+      { "id": "keuken", "name": "Keuken" },
+      { "id": "persoonlijke-hygiene", "name": "Persoonlijke hygiëne" },
+      { "id": "linnenwas", "name": "Linnenwas" }
+  ]},
+  { "id": "vuilzakken-afvalbakken", "name": "Vuilzakken en afvalbakken", "children": [
+      { "id": "vuilniszakken", "name": "Vuilniszakken" },
+      { "id": "transparante-vuilniszakken", "name": "Transparante vuilniszakken" },
+      { "id": "keukenafvalbakken", "name": "Keukenafvalbakken" },
+      { "id": "sanitaire-afvalbakken", "name": "Sanitaire afvalbakken" },
+      { "id": "pedaalemmers", "name": "Pedaalemmers" },
+      { "id": "papierbakken", "name": "Papierbakken" },
+      { "id": "as-papierbakken", "name": "As- en papierbakken" },
+      { "id": "asbakken", "name": "Asbakken" },
+      { "id": "tafelbakjes", "name": "Tafelbakjes" },
+      { "id": "vlamdovende-afvalbakken", "name": "Vlamdovende afvalbakken" },
+      { "id": "buitenafvalbakken", "name": "Buitenafvalbakken" },
+      { "id": "binnenafvalbak-wandbevestiging", "name": "Binnenafvalbak met wandbevestiging" },
+      { "id": "gescheiden-afvalbakken-containers", "name": "Gescheiden afvalbakken en containers" },
+      { "id": "toebehoren", "name": "Toebehoren" }
+  ]},
+  { "id": "was-vaatmiddel", "name": "Was- en vaatmiddel", "children": [
+      { "id": "wasmiddelen", "name": "Wasmiddelen" },
+      { "id": "textielontgeurders", "name": "Textielontgeurders" },
+      { "id": "wasverzachters", "name": "Wasverzachters" },
+      { "id": "toebehoren", "name": "Toebehoren" },
+      { "id": "vaatwasmiddel", "name": "Vaatwasmiddel", "children": [
+          { "id": "dipp", "name": "Dipp" },
+          { "id": "werner-en-mertz", "name": "Werner & Mertz" },
+          { "id": "pg", "name": "P&G" },
+          { "id": "christeyns", "name": "Christeyns" }
+      ]}
+  ]},
+  { "id": "lopende-acties", "name": "Lopende acties", "children": [] }
+]
