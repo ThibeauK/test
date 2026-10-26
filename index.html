@@ -1,64 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>DS Cleaning - Coming Soon!</title>
-    <style>
-        #container2{
-            background-image: url(images/comingsoon.webp);
-            background-position: top;
-            background-size: contain;
-            background-repeat:no-repeat;
-            height: 100dvh;
-            width: 100%;
-            filter: blur(10vw);
-
-        }
-
-        #tekst{
-            position: absolute;
-            width: 100vw;
-            height: 100dvh;
-            top: 1px;
-            left: 1px;
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 1em;
-        }
-
-        #tekst h1{
-            font-weight: 400;
-            font-size: 30px;
-        }
-
-        #tekst p,a{
-            font-size: 15px;
-        }
-
-        @media screen and (max-width: 500px){
-            #container2{
-                background-size: cover;
-            }
-
-        }
-    </style>
+    <title>DS cleaning</title>
 </head>
 <body>
-    <div id="container2">
-    </div>
+    <div id="container">
+        <header>
+            <div id="banner">
+                <h1>DS cleaning</h1>
+                <p>30 jaar ervaring</p>
+            </div>
+            <button type="button" id="menu-toggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+            <nav>
+                <div class="item"><a href="index.html">home</a></div>
+                <div class="item"><a href="overons.html">over ons</a></div>
+                <div class="item"><a href="producten.html">producten</a></div>
+                <div class="item"><a href="advies-service.html">advies&service</a></div>
+                <div class="item"><a href="contact.html">contact</a></div>
+            </nav>
+            <div id="navhistory"></div>
+        </header>
 
-    <div id="tekst">
-        <h1>COMING SOON!</h1>
-        <br>
-        <p>Advies nodig?</p>
-        <p>Je kan me altijd berijken op <a href="tel:+324 75 43 82 15">+324 75 43 82 15</a></p>
-        <p>of een mailtje sturen via <a href="mailto:nathalie@dscleaning.be">nathalie@dscleaning.be</a></p>
+        <div id="main" class="section">
+            <div class="main-section" id="links" >
+                <div id="nathalie">
+                    <img src="images/nathalie.png" alt="">
+                    <div id="bio">
+                    <div>
+                        <h1>Nathalie De Stoop</h1>
+                        <p>
+                        Hey, Ik ben Nathalie. Ik ben al 30 jaar actief in de professionele schoonmaaksector.
+                        Mijn uitgebreide productkennis en praktijkervaring vormen de basis van DS Cleaning. <br><br>
+                        Wij doen niet zomaar aan producten verkopen, maar luisteren, adviseren en zoeken voor iedere toepassing de juiste oplossing.
+                        </p>
+                    </div>
+                    <div id="advies">
+                        <p>Advies nodig?</p>
+                        <p>Je kan me altijd bereiken op <a href="tel:+32475438215">+32475438215</a></p>
+                        <p>of stuur me een mailtje op <a href="mailto:nathalie@dscleaning.be">nathalie@dscleaning.be</a></p>
+                        <br>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="rechts" class="main-section">
+                <div id="adv">
+                    <h1>Producten in de kijker:</h1>
+                    <div id="adv-producten"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="main-section" id="images">
+                <div class="image-adv">
+                    <img src="images/product-placement1.png" alt="">
+                    <h1 class="caption">Meer dan 10.000 artikelen verkrijgbaar</h1>
+                </div>
+
+                <div class="image-adv">
+                    <img src="images/product-placement2.png" alt="">
+                    <h1 class="caption">Uitgebreide productkennis</h1>
+                </div>
+
+               <div class="image-adv">
+                    <img src="images/product-placement.png" alt="">
+                    <h1 class="caption">Levering binnen 2 à 5 dagen</h1>
+                </div>
+
+                <div class="image-adv">
+                    <img src="images/product-placement3.png" alt="">
+                    <h1 class="caption">Gratis levering vanaf €140,00</h1>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+                <div id="footer-links">
+                    <div id="footer-contact">
+                        <div id="footer-bio">
+                            <h1>DS cleaning</h1>
+                            <p>Professionele schoonmaak- <br>
+                                en hygiëneoplossingen</p>
+                        </div>
+                        <a href="tel:+32475438215">+32475438215</a>
+                        <a href="mailto:nathalie@dscleaning.be">nathalie@dscleaning.be</a>
+                    </div>
+
+                    <div id="footer-nav">
+                    <div class="item"><a href="index.html">home</a></div>
+                    <div class="item"><a href="overons.html">over ons</a></div>
+                    <div class="item"><a href="producten.html">producten</a></div>
+                    <div class="item"><a href="advies-service.html">advies&service</a></div>
+                    <div class="item"><a href="contact.html">contact</a></div>
+                </div>
+                </div>
+            <div id="logos">
+                <div class="logo"><img src="images/merken-logos/hg.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/kacher.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/ecolab.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/vileda.png" alt=""></div>
+            </div>
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

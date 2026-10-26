@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>DS cleaning - contact</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="banner">
+                <h1>DS cleaning</h1>
+                <p>30 jaar ervaring</p>
+            </div>
+            <button type="button" id="menu-toggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+            <nav>
+                <div class="item"><a href="index.html">home</a></div>
+                <div class="item"><a href="overons.html">over ons</a></div>
+                <div class="item"><a href="producten.html">producten</a></div>
+                <div class="item"><a href="advies-service.html">advies&service</a></div>
+                <div class="item"><a href="contact.html">contact</a></div>
+            </nav>
+            <div id="navhistory"></div>
+        </header>
+
+        <div id="contact" class="section">
+                <div id="contact-forum">
+                    <form id="contact-formulier">
+                        <div class="input">
+                            <label for="forum-naam">Naam *</label>
+                            <input type="text" name="name" id="forum-naam" required autocomplete="family-name">
+                        </div>
+
+                        <div class="input">
+                            <label for="forum-voornaam">Voornaam *</label>
+                            <input type="text" name="voornaam" id="forum-voornaam" required autocomplete="given-name">
+                        </div>
+
+                        <div class="input">
+                            <label for="forum-email">E-mail *</label>
+                            <input type="email" name="email" id="forum-email" required autocomplete="email">
+                        </div>
+                        
+                        <div class="input">
+                            <label for="forum-nummer">Nummer</label>
+                            <input type="tel" name="nummer" id="forum-nummer" autocomplete="tel">
+                        </div>
+
+                        <div class="input">
+                            <label for="bericht"></label>
+                            <textarea name="bericht" id="bericht" placeholder=" typ hier..." required></textarea>
+                        </div>
+
+                        <div class="hp" aria-hidden="true">
+                            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+                        </div>
+
+                        <div class="input">
+                            <label></label>
+                            <label class="robot-check"><input type="checkbox" name="robot" required> Ik ben geen robot</label>
+                        </div>
+
+                        <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+
+                        <div class="input" id="button">
+                            <label for=""></label>
+                            <input type="submit" value="Verstuur">
+                        </div>
+                    </form>
+                </div>
+            <div id="contact-info">
+                <div>
+                <h1>DS Cleaning Products</h1>
+                <p>Brugse Steenweg 222/ 003 <br>
+                    8630 Veurne
+                </p>
+                </div>
+                <div id="contact-a">
+                    <a href="tel:+32475438215">+32475438215</a>
+                    <a href="mailto:nathalie@dscleaning.be">nathalie@dscleaning.be</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="main-section" id="images">
+
+            </div>
+        </div>
+
+        <footer>
+                <div id="footer-links">
+                    <div id="footer-contact">
+                        <div id="footer-bio">
+                            <h1>DS Cleaning Products</h1>
+                            <p>Professionele schoonmaak- <br>
+                                en hygiëneoplossingen</p>
+                                <br>
+                            <p>Brugse Steenweg 222/ 003 <br>
+                                8630 Veurne
+                            </p>
+                        </div>
+                        <a href="tel:+32475438215">+32475438215</a>
+                        <a href="mailto:nathalie@dscleaning.be">nathalie@dscleaning.be</a>
+                    </div>
+
+                    <div id="footer-nav">
+                    <div class="item"><a href="index.html">home</a></div>
+                    <div class="item"><a href="overons.html">over ons</a></div>
+                    <div class="item"><a href="producten.html">producten</a></div>
+                    <div class="item"><a href="advies-service.html">advies&service</a></div>
+                    <div class="item"><a href="contact.html">contact</a></div>
+                </div>
+                </div>
+            <div id="logos">
+                <div class="logo"><img src="images/merken-logos/hg.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/kacher.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/ecolab.png" alt=""></div>
+                <div class="logo"><img src="images/merken-logos/vileda.png" alt=""></div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
